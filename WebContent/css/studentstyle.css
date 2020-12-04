@@ -1,0 +1,146 @@
+  /*---------------------------------------
+    FEATURE          
+  -----------------------------------------*/
+
+  .profile {
+    background: var(--dark-color);
+    padding: 5rem 0;
+  }
+
+
+  /*---------------------------------------
+     SCHEDULE             
+  -----------------------------------------*/
+
+  .schedule {
+    background: var(--dark-color);
+  }
+
+  .schedule-table {
+    display: table;
+    border: 0;
+    text-align: center;
+  }
+
+  .schedule-table strong,
+  .schedule-table span {
+    display: block;
+    text-align: center;
+  }
+
+  .schedule-table strong {
+    color: var(--white-color);
+  }
+
+  .schedule-table span {
+    color: var(--gray-color);
+  }
+
+  .schedule-table span,
+  .schedule-table small {
+    font-size: var(--menu-font-size);
+    text-transform: uppercase;
+  }
+
+  .schedule-table small {
+    position: relative;
+    top: 10px;
+  }
+
+  .table .thead-light th,
+  .schedule-table th {
+    background: var(--primary-color);
+    border: 1px solid #212122;
+    color: var(--white-color);
+  }
+
+  .schedule-table .thead-light th {
+    border-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  .table-bordered td, 
+  .table-bordered th {
+    border: 1px solid #212122;
+    color: white;
+  }
+
+  .table-bordered td {
+    padding-bottom: 22px;
+  }
+
+  .table td, .table th {
+    padding: 1rem;
+  }
+  
+.button_y {
+    margin-top: 25px;
+    background:  black;
+    color: white;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button_y:hover {
+    background:green;
+    color: black;
+}
+.button_y a {
+    text-decoration: none;
+    color: black;
+}
+.form-control {
+  border-radius: var(--border-radius-small);
+  margin: 1.3rem 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+.form-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left; 
+  text-align: left;
+}
+
+.form-group label{
+  display: inline-flex;
+  margin: 0.5%;
+}
+
+.form-group input[type="text"], .form-group textarea{
+  padding:8px;
+  width:35%;
+}
+
+.dropdown-1{
+    order:1;
+    flex:1;
+}
+
+.dropdown-2{
+    order:2;
+    flex:1;
+}
+
+.dropdown-3{
+    order:3;
+    flex:1;
+}
+
+.about h2 + p {
+  max-width: 90%;
+}
+#actlist {
+  padding: 7rem 0;
+}

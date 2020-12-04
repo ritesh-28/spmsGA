@@ -1,0 +1,183 @@
+#actlist {
+  padding: 7rem 0;
+}
+.ga-map {
+    display: flex;
+}
+.act-info {
+  display: flex;
+}
+.act-info1 {
+  flex: 1;
+}
+.act-info2 {
+  flex: 1;
+}
+.act-info3 {
+  flex: 1;
+}
+.act-but {
+  float: right;
+}
+.button_s {
+    margin: 0 25px;
+    background:  white;
+    color: black;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button_s:hover {
+  background-color: green;
+}
+.button_r {
+  margin: 0 50px;
+  background: white;
+  color: black;
+  letter-spacing: 0.5px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+.button_r:hover {
+  background-color: red;
+}
+.button_y {
+    margin-top: 25px;
+    background:  greenyellow;
+    color: black;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button_y:hover {
+    background:green;
+    color: black;
+}
+.button_y a {
+    text-decoration: none;
+    color: black;
+}
+.button_y {
+    margin-top: 25px;
+    background:  greenyellow;
+    color: black;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button_y:hover {
+    background:green;
+    color: black;
+}
+.button_y a {
+    text-decoration: none;
+    color: black;
+}
+
+table{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+th{
+  background-color: var(--primary-color);
+  border: 1px solid #212122;
+  color: var(--white-color);
+  text-align: center;
+  font-weight: bold;
+}
+td {
+	background-color:white;
+}
+.schedule-table td {
+    border: 1px solid #212122;
+    color: black;
+  }
+
+ th, td{
+  padding: 12px 15px;
+  
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td{
+  padding: 10px;
+}
+
+.webform input {
+  height: calc(2.25rem + 20px);
+}
+
+.form-control {
+  border-radius: var(--border-radius-small);
+  margin: 1.3rem 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: var(--primary-color);
+}
+
+.form-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left; 
+  text-align: left;
+}
+
+.form-group label{
+  display: inline-flex;
+  margin: 0.5%;
+}
+
+.form-group input[type="text"], .form-group textarea{
+  padding:8px;
+  width:35%;
+}
+
+.dropdown-1{
+    order:1;
+    flex:1;
+}
+
+.dropdown-2{
+    order:2;
+    flex:1;
+}
+
+.dropdown-3{
+    order:3;
+    flex:1;
+}
+
+.about h2 + p {
+  max-width: 90%;
+}

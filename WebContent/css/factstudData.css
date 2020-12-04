@@ -1,0 +1,68 @@
+.stud-info {
+    display: flex;
+}
+#stud-data {
+  padding: 7rem 0;
+}
+.dropdown-1 {
+    flex: 1;
+}
+.dropdown-2 {
+    flex: 1;
+}
+.dropdown-3 {
+    flex: 1;
+}
+.button_y {
+    margin-top: 25px;
+    background:  greenyellow;
+    color: black;
+    letter-spacing: 0.5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+}
+.button_y:hover {
+    background:green;
+    color: black;
+}
+.button_y a {
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px ;
+    font-size: 1rem;
+  }
+  
+  th{
+    background: var(--primary-color);
+    border: 1px solid #212122;
+    color: var(--white-color);
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  
+  th, td{
+    padding: 10px;
+  }
+  
+  tr:nth-child(even){
+    background-color: #fff;
+  }
+  
+  tr:nth-child(odd){
+    background-color: #ddd;
+  }
