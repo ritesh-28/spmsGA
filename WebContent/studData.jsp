@@ -292,8 +292,8 @@
             <h3>Copyright &copy; IT Department, KJSIEIT.</h3> <br>
             Guided by Dr. Radhika Kotecha (HOD, IT Department, KJSIEIT) <br>
             Developed by <br>
-            Pandey Ritesh Kumar (SE-IT-43) <br>
-            Janhavi Obhan (SE-IT-40)
+            Pandey Ritesh Kumar (SE_IT_43) <br>
+            Janhavi Obhan (SE_IT_40)
         </div>
     </footer>
 </body>
