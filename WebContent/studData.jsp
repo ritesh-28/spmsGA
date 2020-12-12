@@ -287,14 +287,29 @@
         </section>
     
     <!----------FOOT SECTION (THIS CONTAINS COPYRIGHTS AND IS PRESENT ON EACH PAGE)------------->
-    <footer>
-        <div class="center">
-            <h3>Copyright &copy; IT Department, KJSIEIT.</h3> <br>
-            Guided by Dr. Radhika Kotecha (HOD, IT Department, KJSIEIT) <br>
-            Developed by <br>
-            Pandey Ritesh Kumar (SE_IT_43) <br>
-            Janhavi Obhan (SE_IT_40)
-        </div>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <h2>Copyright &copy; IT Department, KJSIEIT </h2>
+        <h3>Guided By</h3> Dr. Radhika Kotecha <br />
+        (HOD, IT Department, KJSIEIT) <br />
+        <h3>Developed by</h3>
+        Janhavi Obhan (Se_IT_40) &nbsp; &nbsp; &nbsp;
+        Pandey Ritesh Kumar (Se_IT_43) <br> <br>
+        <a href="mailto: janhavi.obhan@somaiya.edu" target="blank">
+            <i class="fas fa-envelope fa-2x"></i>
+        </a> &nbsp; &nbsp; &nbsp;
+        <a href="tel: 9322935775">
+            <i class="fas fa-phone-alt fa-2x"></i>
+        </a>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="mailto: riteshkumar.dp@somaiya.edu" target="blank">
+            <i class="fas fa-envelope fa-2x"></i>
+        </a> &nbsp; &nbsp; &nbsp;
+        <a href="tel: 9082407433">
+            <i class="fas fa-phone-alt fa-2x"></i>
+        </a>
+
     </footer>
 </body>
 </html>
